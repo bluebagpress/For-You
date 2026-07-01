@@ -7,7 +7,7 @@ function showPage() {
 
     const number = String(current).padStart(2, "0");
 
-    page.src = `images/${number}.jpg`;
+    page.src = `${number}.jpg`;
 
 }
 
