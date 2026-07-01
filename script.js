@@ -5,10 +5,9 @@ const total = 40;
 
 function showPage() {
 
-    alert(current);
-
     const number = String(current).padStart(2, "0");
-    page.src = `${number}.jpg`;
+
+    page.src = `${number}.jpg?${Date.now()}`;
 
 }
 
